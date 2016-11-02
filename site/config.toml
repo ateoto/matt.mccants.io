@@ -1,0 +1,25 @@
+baseurl = "https://matt.mccants.io"
+languageCode = "en"
+title = "mccants.io"
+theme = "hemingway"
+copyright = '<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>'
+#disqusShortname = "shortname"
+#googleAnalytics = ""
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/ateoto"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/ateoto"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
